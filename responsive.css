@@ -1,0 +1,45 @@
+/* For Tablet */
+@media all and (max-width: 1000px) {
+  .courses-wrapper {
+    margin-bottom: 10px;
+  }
+
+  .courses-box {
+    margin: 30px;
+    width: 35%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .courses-box {
+    width: 50%;
+  }
+}
+
+/* For Smartphone */
+@media all and (max-width: 420px) {
+  .courses {
+    flex-wrap: wrap;
+  }
+
+  .courses-box {
+    width: 100%;
+  }
+  .nav-list a {
+    font-size: 20px;
+  }
+
+  .footer-right {
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .nav-list a {
+    font-size: 15px;
+  }
+
+  .footer-right {
+    flex-direction: column;
+  }
+}
