@@ -16,8 +16,9 @@ ul {
   margin: 0px;
 }
 
-header {
+.header-logo {
   text-align: center;
+  font-family: "Lucida Calligraphy";
 }
 
 .nav-list {
@@ -95,6 +96,10 @@ header {
 
 footer {
   padding: 0 30px;
+}
+
+.footer-logo {
+  font-family: "Lucida Calligraphy";
 }
 
 .footer-list {
